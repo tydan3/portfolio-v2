@@ -1,0 +1,38 @@
+.container {
+  color: black;
+  height: 100%;
+  width: 100%;
+}
+.topbar {
+  /* Add styles for the topbar here */
+  background-color: red;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebar {
+  /* Add styles for the sidebar here */
+  background-color: #444;
+  height: 100%;
+  width: 200px;
+  float: left;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.main-content {
+  /* Add styles for the main-content here */
+  background-color: #f4f4f4;
+  height: 100%;
+  width: calc(100% - 200px);
+  float: left;
+  padding: 20px;
+  box-sizing: border-box;
+}

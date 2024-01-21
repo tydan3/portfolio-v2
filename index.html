@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="view" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Layout</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        display: flex;
+        flex-direction: column;
+      }
+      .topbar {
+        background-color: #222;
+        color: #9d9d9d;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+      }
+      ul {
+        list-style-type: none;
+        border: #111;
+        border-radius: 20px;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+
+      li {
+        float: left;
+      }
+
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      /* Change the link color to #111 (black) on hover */
+      li a:hover {
+        background-color: #111;
+      }
+      .main {
+        display: flex;
+        flex: 1;
+      }
+      .sidebar {
+        background-color: blue;
+        color: #000;
+        position: fixed;
+        margin-top: 90px;
+        padding: 20px;
+        height: 200px;
+        width: 100px;
+      }
+      .main-content {
+        background-color: #333;
+        padding: 20px;
+        height: 100vh;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="topbar">
+      <ul>
+        <li><a href="">About Me</a></li>
+        <li><a href="">Portfolio</a></li>
+        <li><a href="">Download CV</a></li>
+      </ul>
+    </div>
+    <div class="main">
+      <div class="sidebar">Contact</div>
+      <div class="main-content">saldnsa;dnasda</div>
+    </div>
+  </body>
+</html>
